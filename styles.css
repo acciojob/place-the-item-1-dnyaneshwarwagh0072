@@ -1,2 +1,28 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 40px;
+	font-weight: 900;
+}
 
-/* Your CSS Code here. */
+#b1 {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	order: 2;
+}
+
+#b2 {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	order: 3;
+}
+
+#b3 {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	order: 1;
+}
